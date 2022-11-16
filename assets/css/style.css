@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+.btn-reg {
+	background-color: #7AAD37;
+    width: 100px;
+    color: #FFF !important;
+    border-radius: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-reg:hover {
+    background-color: #FFF !important;
+    cursor: pointer;
+    color: #7AAD37 !important;
+    border-width: 1px;
+    border-color: #7AAD37;
+}
+
+.btn-log {
+	background-color: #FFF;
+    width: 100px;
+    color: #7AAD37 !important;
+    border-radius: 12px;
+    border: 1px solid #7AAD37;
+    margin-left: 5px;
+}
+
+.btn-log:hover {
+    background-color: #7AAD37 !important;
+    cursor: pointer;
+    color: #FFF !important;
+    border-width: 1px;
+    border-color: #7AAD37;
+}
+
+.welcome-banner {
+	width: 100%;
+	height: 100vh;
+	background-color: #373B44;
+	background-image: url("../../assets/images/main-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+}
+
+h1 {
+	color: #FFF;
+}
+
+.section-about {
+	height: 100vh;
+	margin-top: 10px;
+}
