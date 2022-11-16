@@ -1,0 +1,57 @@
+header {
+    margin-bottom: 0px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+h2 {
+    margin-left: 5px;
+    margin-bottom: 20px !important;
+}
+
+input:focus {
+    box-shadow: none !important;
+    border: 1px solid #7AAD37 !mportant;
+    outline-width: 0;
+}
+
+.border-md {
+    border-width: 2px;
+}
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+select, option {
+    color: #555;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #7AAD37;
+    color: #FFF;
+}
+
+.bg-blue {
+    color: #FFF;
+    background-color: #7AAD37;
+}
